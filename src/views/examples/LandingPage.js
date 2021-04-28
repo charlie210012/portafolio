@@ -33,6 +33,9 @@ import bg8 from "assets/img/bg8.jpg";
 import bg7 from "assets/img/bg7.jpg";
 import bg6 from "assets/img/bg6.jpg";
 import bg11 from "assets/img/bg11.jpg";
+import logoNexura from "assets/img/logoNexura.jpg";
+import logoEntregalo from "assets/img/logoEntregalo.png";
+import logoBorja from "assets/img/logoBorja.jpg";
 
 function LandingPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -315,7 +318,7 @@ function LandingPage() {
                 </TabPane>
               </TabContent>
             </Row>
-            <h2 className="title">Here is our team</h2>
+            <h2 className="title">Empresas en las que he trabajado.</h2>
             <div className="team">
               <Row>
                 <Col md="4">
@@ -323,10 +326,10 @@ function LandingPage() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={avatar}
+                      src={logoNexura}
                     ></img>
-                    <h4 className="title">Romina Hadid</h4>
-                    <p className="category text-info">Model</p>
+                    <h4 className="title">Nexura Internacional</h4>
+                    <p className="category text-info">Profesional de Proyectos</p>
                     <p className="description">
                       You can write here details about one of your team members.
                       You can give more details about what they do. Feel free to
@@ -367,10 +370,10 @@ function LandingPage() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={ryan}
+                      src={logoEntregalo}
                     ></img>
-                    <h4 className="title">Ryan Tompson</h4>
-                    <p className="category text-info">Designer</p>
+                    <h4 className="title">Entregalo</h4>
+                    <p className="category text-info">Desarrollador full stack</p>
                     <p className="description">
                       You can write here details about one of your team members.
                       You can give more details about what they do. Feel free to
@@ -403,10 +406,10 @@ function LandingPage() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={eva}
+                      src={logoBorja}
                     ></img>
-                    <h4 className="title">Eva Jenner</h4>
-                    <p className="category text-info">Fashion</p>
+                    <h4 className="title">Borja Grupo Construcciones</h4>
+                    <p className="category text-info">Coordinador</p>
                     <p className="description">
                       You can write here details about one of your team members.
                       You can give more details about what they do. Feel free to
